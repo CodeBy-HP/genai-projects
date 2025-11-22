@@ -9,5 +9,8 @@ python-dotenv==1.0.0
 # Numerical Computing (for embeddings examples)
 numpy==1.26.4
 
+# Output Parsers (for structured data)
+pydantic==1.10.13
+
 # Optional: For better output formatting
 colorama==0.4.6
