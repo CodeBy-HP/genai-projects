@@ -23,7 +23,7 @@ def basic_chat_example():
     
     # Initialize Gemini Chat Model
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -47,7 +47,7 @@ def conversation_with_context():
     print("=" * 60)
     
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -87,7 +87,7 @@ def system_message_example():
     print("=" * 60)
     
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.9,  # More creative!
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -115,7 +115,7 @@ def streaming_chat_example():
     print("=" * 60)
     
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -143,7 +143,7 @@ def interactive_chat_session():
     print("=" * 60)
     
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
@@ -197,13 +197,13 @@ def compare_llm_vs_chat():
     from langchain_google_genai import GoogleGenerativeAI
     
     llm = GoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
     
     chat = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-2.0-flash",
         temperature=0.7,
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
